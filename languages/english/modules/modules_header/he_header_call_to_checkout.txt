@@ -1,0 +1,5 @@
+
+ module_header_call_to_checkout_title = Do you want install Call to Checkout
+ module_header_call_to_checkout_description = Adds a call to checkout action into the Header Area of your site.
+ text_call_to_checkout = &nbsp;&nbsp;You have {{count_content}} item(s) in your shopping basket, click to proceed through the checkout
+ button_call_to_checkout = click to proceed through the checkout

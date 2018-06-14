@@ -1,0 +1,4 @@
+module_header_call_to_checkout_title = Souhaitez-vous installer le Call to Checkout
+module_header_call_to_checkout_description = Ajouter une information  call to checkout dans l'entete de votre site.
+module_header_call_to_checkout_text = &nbsp;&nbsp;Vous avez %s item(s) dans votre panier
+button_call_to_checkout = Continuer le processus de commande
