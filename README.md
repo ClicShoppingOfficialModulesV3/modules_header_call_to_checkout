@@ -21,7 +21,8 @@ Modules:
 - Multi languages
 
 Recommendation and documentation specific use :
-
+The module is installed in the Default template.
+If you have another template, you must copy the files inside your new template.
 
 Implementation:
 
