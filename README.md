@@ -1,3 +1,4 @@
+#modules_header_call_to_checkout
 
 This module displays an information when the customer insert a product in this basket. there is also a button to help the customer to continue this order process
 
@@ -30,6 +31,8 @@ Implementation:
 
 - Install the module
 - Activate the module
+
+- Copy the modules_header_call_to_checkout.json into ClicShopping/Work/Cache/Github (manual installation)
 
 ScreenShot:
 
