@@ -1,7 +1,7 @@
 {
   "title":		"modules_header_call_to_checkout",
   "type":        "modules_header",
-  "vendor":		 "ClicShopping",
+  "vendor":		 "modules_header",
   "is_free":   "Yes",
   "website_link_to_sell" : "",
   "version":		1.0,
