@@ -34,6 +34,17 @@ Implementation:
 
 - Copy the modules_header_call_to_checkout.json into ClicShopping/Work/Cache/Github (manual installation)
 
-ScreenShot:
+All informations about the ClicShopping
+
+ Community : https://www.clicshopping.org
+
+ Software : https://github.com/ClicShopping
+
+ Official add on : https://github.com/ClicShoppingOfficialModulesV3
+
+ Community add on : https://github.com/ClicShoppingV3Community
+
+ trademark License info : https://www.clicshopping.org/forum/trademark/ 
+
 
 ![Boostrap Caroussel](https://raw.github.com/ClicShoppingAddsOn/modules_header_call_to_checkout/master/infos_json/modules_header_call_to_checkout.png)
