@@ -47,4 +47,4 @@ All informations about the ClicShopping
  trademark License info : https://www.clicshopping.org/forum/trademark/ 
 
 
-![Boostrap Caroussel](https://raw.github.com/ClicShoppingAddsOn/modules_header_call_to_checkout/master/infos_json/modules_header_call_to_checkout.png)
+![image](https://raw.github.com/ClicShoppingAddsOn/modules_header_call_to_checkout/master/infos_json/modules_header_call_to_checkout.png)
