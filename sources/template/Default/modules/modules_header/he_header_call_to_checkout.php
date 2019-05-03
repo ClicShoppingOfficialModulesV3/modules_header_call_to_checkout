@@ -53,7 +53,7 @@
 
       ob_start();
 
-      require($CLICSHOPPING_Template->getTemplateModules($this->group . '/content/header_call_to_checkout'));
+      require_once($CLICSHOPPING_Template->getTemplateModules($this->group . '/content/header_call_to_checkout'));
       $template = ob_get_clean();
 
       $CLICSHOPPING_Template->addBlock($template, $this->group);
