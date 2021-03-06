@@ -33,7 +33,7 @@
       $this->description = CLICSHOPPING::getDef('module_header_call_to_checkout_description');
 
 
-      if (defined('MODULE_HEADER_CALL_TO_CHECKOUT_STATUS')) {
+      if (\defined('MODULE_HEADER_CALL_TO_CHECKOUT_STATUS')) {
         $this->sort_order = MODULE_HEADER_CALL_TO_CHECKOUT_SORT_ORDER;
         $this->enabled = (MODULE_HEADER_CALL_TO_CHECKOUT_STATUS == 'True');
         $this->pages = MODULE_HEADER_CALL_TO_CHECKOUT_DISPLAY_PAGES;
@@ -65,7 +65,7 @@
     }
 
     public function check() {
-      return defined('MODULE_HEADER_CALL_TO_CHECKOUT_STATUS');
+      return \defined('MODULE_HEADER_CALL_TO_CHECKOUT_STATUS');
     }
 
     public function install() {
