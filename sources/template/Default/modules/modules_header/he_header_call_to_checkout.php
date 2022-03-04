@@ -15,7 +15,7 @@
 
   class he_header_call_to_checkout {
     public string $code;
-    public $group;
+    public string $group;
     public $title;
     public $description;
     public ?int $sort_order = 0;
@@ -46,7 +46,7 @@
       $CLICSHOPPING_ShoppingCart = Registry::get('ShoppingCart');
 
       if ($CLICSHOPPING_ShoppingCart->getCountContents() > 0 && !isset($_GET['Checkout'])) {
-        $call_to_checkout = '<div class="alert alert-danger text-md-center headerCallToCheckoutAlertDanger" role="alert"><i class="fas fa-flag fa-lg"></i>' . CLICSHOPPING::getDef('text_call_to_checkout', ['count_content' =>$CLICSHOPPING_ShoppingCart->getCountContents()]) . '&nbsp;&nbsp;' . HTML::button(CLICSHOPPING::getDef('button_call_to_checkout'), 'fas fa-thumbs-o-up fa-lg', CLICSHOPPING::link(null, 'Checkout&Shipping'), 'primary', NULL, 'btn-success') . '</div>';
+        $call_to_checkout = '<div class="alert alert-danger text-center headerCallToCheckoutAlertDanger" role="alert"><i class="bi bi-flag-fill"></i>' . CLICSHOPPING::getDef('text_call_to_checkout', ['count_content' =>$CLICSHOPPING_ShoppingCart->getCountContents()]) . '&nbsp;&nbsp;' . HTML::button(CLICSHOPPING::getDef('button_call_to_checkout'), 'bi bi-hand-thumbs-up', CLICSHOPPING::link(null, 'Checkout&Shipping'), 'primary', NULL, 'btn-success') . '</div>';
       }else{
         $call_to_checkout = '';
       }
